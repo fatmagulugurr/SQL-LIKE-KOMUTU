@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSSQL LİKE KOMUTU</title>
+    <style>
+        .paragraf{
+            margin-top: 50px;
+        }
+        .sql{
+            margin-top: 50px;
+            margin-left: 20px;
+        }
+        .sql2{
+            margin-top: 30px;
+            margin-left: 20px;
+        }
+        .tablo{
+            margin-top: 60px;
+            margin-left:400px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: large;
+            border:5px solid tomato;
+        }
+        .sql3{
+            margin-top: 50px;
+            margin-left: 400px;
+        }
+    </style>
+</head>
+<body>
+  <h2 class="paragraf"><center>MİCROSOFT MANANGEMENT STUDİO LİKE KOMUTU</center></h2>
+ <img src="sql.PNG" class="sql">  
+   <img src="sql2.PNG" class="sql2">
+   <table border="1" class="tablo" cellpadding="5">
+    <tr class="tablo2"> 
+        <td> WHERE Soyad LIKE 'a%'</td> 
+        <td> 	
+            “a” ile başlayan tüm verileri bulur.</td>
+    </tr>
+    <tr class="tablo2"> 
+        <td>WHERE Soyad LIKE '%a' </td>
+        <td> 	
+            “a” ile biten tüm verileri bulur.</td>
+    </tr>    
+    <tr class="tablo2"> 
+        <td>WHERE Soyad LIKE '%or%' </td>
+        <td>Herhangi bir konumda “or” bulunan verileri bulur.</td>
+    </tr>   
+     <tr class="tablo2"> 
+        <td> WHERE Soyad LIKE '_r%'</td>
+        <td>	
+            İkinci konumda “r” bulunan tüm verileri bulur.</td>
+    </tr>    
+    <tr class="tablo2"> 
+        <td> WHERE Soyad LIKE 'a_%'</td>
+        <td>“a” ile başlayan ve en az 2 karakter uzunluğunda olan tüm verileri bulur.</td>
+    </tr>   
+    <tr class="tablo2"> 
+        <td>WHERE Soyad LIKE 'a__%' </td>
+        <td> “a” ile başlayan ve en az 3 karakter uzunluğunda olan tüm verileri bulur.</td>
+    </tr>  
+     <tr class="tablo2"> 
+        <td>WHERE Soyad LIKE 'a%o' </td>
+        <td>	
+            “a” ile başlayan ve “o” ile biten tüm verileri bulur.</td>
+    </tr>  
+   
+   </table>
+   <img src="sql3.PNG" class="sql3">
+
+</body>
+</html>
